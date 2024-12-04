@@ -1,20 +1,72 @@
 ---
 title: Pinecone Integration Guide
 sidebar_label: Pinecone
-tags: [Pinecone, AI Vector Search, AI Embeddings]
-keywords: [ Pinecone Integration, Vector Database, AI Query Augmentation, AI Business Solutions, AI Model Pooling, Vector Database API, AI Vector Management, RAG Tuning Alternative, Vector Indexing API, Vector Query API, AI Data Security, AI Redundancy, AI Reliability, API Vector Control, Vector Storage Management, AI Scalability, AI Metadata Management, AI Vector Configuration, AI Vector Collection, AI Vector Namespace, AI Failover Mechanism, Vector Upsert API, AI Vector Search, Pinecone API Integration, AI Vector Optimization, AI Vector Setup, API Vector Aggregation, AI Model Pool API, AI Vector Operations, Vector Collection Setup, AI Vector Usage, AI Vector Deletion, AI Vector Upserting, Vector Query Optimization, AI Vector Retrieval, AI Vector Embedding, API Vector Management, AI Vector Scalability, Vector API Integration, AI Vector Integration, AI Vector Storage, AI Vector Features, AI Vector Guide, AI Vector Documentation, AI Vector Best Practices, AI Vector Cost Management, AI Vector Performance, AI Vector Benefits ]
+tags:
+  - Pinecone
+  - AI Vector Search
+  - AI Embeddings
+keywords:
+  - Pinecone Integration
+  - Vector Database
+  - AI Query Augmentation
+  - AI Business Solutions
+  - AI Model Pooling
+  - Vector Database API
+  - AI Vector Management
+  - RAG Tuning Alternative
+  - Vector Indexing API
+  - Vector Query API
+  - AI Data Security
+  - AI Redundancy
+  - AI Reliability
+  - API Vector Control
+  - Vector Storage Management
+  - AI Scalability
+  - AI Metadata Management
+  - AI Vector Configuration
+  - AI Vector Collection
+  - AI Vector Namespace
+  - AI Failover Mechanism
+  - Vector Upsert API
+  - AI Vector Search
+  - Pinecone API Integration
+  - AI Vector Optimization
+  - AI Vector Setup
+  - API Vector Aggregation
+  - AI Model Pool API
+  - AI Vector Operations
+  - Vector Collection Setup
+  - AI Vector Usage
+  - AI Vector Deletion
+  - AI Vector Upserting
+  - Vector Query Optimization
+  - AI Vector Retrieval
+  - AI Vector Embedding
+  - API Vector Management
+  - AI Vector Scalability
+  - Vector API Integration
+  - AI Vector Integration
+  - AI Vector Storage
+  - AI Vector Features
+  - AI Vector Guide
+  - AI Vector Documentation
+  - AI Vector Best Practices
+  - AI Vector Cost Management
+  - AI Vector Performance
+  - AI Vector Benefits
 sidebar_position: 30
 ---
 
-<div align="center">
-    <img src="/docs/img/Features/pinecone-banner.png" alt="Pinecone Integration Banner" width="100%" />
-</div>
+::div{align="center"}
+![Pinecone Integration Banner](/docs/img/Features/pinecone-banner.png){width="100%"}
+::
 
 Our Pinecone integration provides advanced control for users who want to manage their vector database directly. Unlike traditional RAG Tuning, which abstracts much of the complexity, the Pinecone integration allows for full control over the RAG process, including indexing and querying vectors with your own configurations.
 
 ## Why Use Pinecone Integration?
 
 Pinecone Integration gives businesses the ability to:
+
 - **Control Vector Storage**: Manage and query your vectors directly with flexible indexing and namespace options.
 - **Full RAG Process Control**: Instead of automatic handling, users can manage their vector collection and tuning process entirely.
 - **Scalability**: Perfect for larger applications that require fine-tuned control over vectors and their associated metadata.
@@ -195,25 +247,17 @@ This adds the vector-based augmentation from your specified collection into the 
 ## Pinecone Integration Fees
 
 Keep in mind that Pinecone Integration incurs the following costs:
+
 - **Read/Write Operations**: Fees apply when you perform read or write operations on vector data.
 - **Storage Fees**: Daily storage fees accumulate based on the size of your vector collections, offering affordable rates even for large collections.
 
 ## FAQs
 
-1. **How do I create an index in Pinecone Integration?**
-   - You don't need to create an index separately. Our system handles this by combining the concepts of **index** and **namespace** into what we call a "collection." When you create a collection using the `collectionName` and `dimension` parameters, you effectively create both the index and namespace in one step.
-
-2. **Can I specify different dimensions for each collection?**
-   - Yes, when creating a collection, you can specify the vector dimension that suits your needs. This allows for flexibility based on the data you're working with.
-
-3. **What happens if I delete a vector collection?**
-   - Deleting a vector collection removes all the vectors and data associated with it. If you need more control, you can choose to delete specific vectors within a collection instead of the entire collection.
-
-4. **Is there a limit on the number of vectors I can store in a collection?**
-   - There is no hard limit on the number of vectors you can store, but keep in mind that storage costs accumulate daily based on the size of the data. The system is designed to scale with your needs.
-
-5. **Can I use my vector collection with any model?**
-   - Yes, once you've created and populated a vector collection, you can use the `rag_tune` parameter to augment any model we support, providing more contextually accurate responses based on your custom data.
+1. **How do I create an index in Pinecone Integration?*** You don't need to create an index separately. Our system handles this by combining the concepts of **index** and **namespace** into what we call a "collection." When you create a collection using the `collectionName` and `dimension` parameters, you effectively create both the index and namespace in one step.
+2. **Can I specify different dimensions for each collection?*** Yes, when creating a collection, you can specify the vector dimension that suits your needs. This allows for flexibility based on the data you're working with.
+3. **What happens if I delete a vector collection?*** Deleting a vector collection removes all the vectors and data associated with it. If you need more control, you can choose to delete specific vectors within a collection instead of the entire collection.
+4. **Is there a limit on the number of vectors I can store in a collection?*** There is no hard limit on the number of vectors you can store, but keep in mind that storage costs accumulate daily based on the size of the data. The system is designed to scale with your needs.
+5. **Can I use my vector collection with any model?*** Yes, once you've created and populated a vector collection, you can use the `rag_tune` parameter to augment any model we support, providing more contextually accurate responses based on your custom data.
 
 ## Conclusion
 
@@ -224,4 +268,3 @@ Our Pinecone Integration empowers businesses to fully control their vector datab
 - [Pinecone API Documentation](https://apipie.ai/docs/api/vectors)
 - [Chat Completions API](https://apipie.ai/docs/api/chatcompletions)
 - [URL Share -Upload a file, get a URL](https://apipie.ai/docs/api/upload-file)
-  

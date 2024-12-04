@@ -1,14 +1,68 @@
 ---
 title: AI Model Pooling Guide
 sidebar_label: Pools
-tags: [AI Model Pooling, AI Reliability, AI Redundancy]
-keywords: [GPT-4o, OpenAI, Pooling, AI Model Pooling, Model Aggregation API, AI Reliability, AI Redundancy, Data Security AI, API Model Pooling, AI Pool Structures, Model Failover, AI Model Management, High Availability AI, AI Response Reliability, AI Pool Configuration, API Model Aggregation, AI Model Pooling Features, AI Model Pooling Benefits, AI Pooling Setup, AI Model Pooling Guide, API Model Pooling Documentation, AI Pooling Integration, AI Model Pooling Use Cases, AI Model Pooling Advantages, AI Pooling Best Practices, AI Model Pooling Strategies, AI Model Pooling Solutions, AI Pooling for Businesses, AI Model Pooling Costs, AI Pooling Configuration Parameters, AI Pooling Performance, AI Model Pooling Security, API Model Redundancy, AI Pooling Setup Guide, API AI Pooling Features, AI Pooling Reliability, AI Model Pooling API, AI Model Pooling Documentation, AI Pooling Integration Guide, AI Model Pooling Setup, AI Pooling Optimization, AI Model Pooling Benefits, AI Pooling Management, AI Model Pooling Techniques, AI Pooling Methods, API AI Model Pooling, AI Model Pooling Implementation, AI Pooling Efficiency, AI Model Pooling Overview, AI Pooling Solutions API, AI Model Pooling Configuration]
+tags:
+  - AI Model Pooling
+  - AI Reliability
+  - AI Redundancy
+keywords:
+  - GPT-4o
+  - OpenAI
+  - Pooling
+  - AI Model Pooling
+  - Model Aggregation API
+  - AI Reliability
+  - AI Redundancy
+  - Data Security AI
+  - API Model Pooling
+  - AI Pool Structures
+  - Model Failover
+  - AI Model Management
+  - High Availability AI
+  - AI Response Reliability
+  - AI Pool Configuration
+  - API Model Aggregation
+  - AI Model Pooling Features
+  - AI Model Pooling Benefits
+  - AI Pooling Setup
+  - AI Model Pooling Guide
+  - API Model Pooling Documentation
+  - AI Pooling Integration
+  - AI Model Pooling Use Cases
+  - AI Model Pooling Advantages
+  - AI Pooling Best Practices
+  - AI Model Pooling Strategies
+  - AI Model Pooling Solutions
+  - AI Pooling for Businesses
+  - AI Model Pooling Costs
+  - AI Pooling Configuration Parameters
+  - AI Pooling Performance
+  - AI Model Pooling Security
+  - API Model Redundancy
+  - AI Pooling Setup Guide
+  - API AI Pooling Features
+  - AI Pooling Reliability
+  - AI Model Pooling API
+  - AI Model Pooling Documentation
+  - AI Pooling Integration Guide
+  - AI Model Pooling Setup
+  - AI Pooling Optimization
+  - AI Model Pooling Benefits
+  - AI Pooling Management
+  - AI Model Pooling Techniques
+  - AI Pooling Methods
+  - API AI Model Pooling
+  - AI Model Pooling Implementation
+  - AI Pooling Efficiency
+  - AI Model Pooling Overview
+  - AI Pooling Solutions API
+  - AI Model Pooling Configuration
 sidebar_position: 15
 ---
 
-<div align="center">
-    <img src="/docs/img/Features/pooling-banner.png" alt="Pooling Feature Banner" width="100%" />
-</div>
+::div{align="center"}
+![Pooling Feature Banner](/docs/img/Features/pooling-banner.png){width="100%"}
+::
 
 Unleash the potential of AI Model Pooling, a breakthrough feature designed to enhance the reliability, redundancy, and data security of AI-generated outputs. This guide delves into the essence of Pools, a service that aggregates multiple similar models to ensure optimal performance and service continuity, especially beneficial for large-scale and sensitive AI applications.
 
@@ -44,6 +98,7 @@ curl -L -X GET 'https://apipie.ai/v1/models?subtype=pool' \
     ]
 }
 ```
+
 Now we can use any model from that list in a regular chat completions format like this >
 
 ```bash
@@ -72,15 +127,10 @@ Leverage AI Model Pooling for enhanced reliability and data privacy across AI ap
 
 To effectively integrate Pools into your AI workflows, follow these steps:
 
-1. **Configure Your API Call:**
-   - Change the `provider` to "pool".
-   - Use the desired pool name in the `model` field.
-
-2. **Access the Model List:**
-   - Use the models route with filter `subtype=pool` to retrieve available pools and their details.
-
-3. **Test and Validate Results:**  
-   - Continually monitor outcomes to ensure the pooling mechanism meets your application’s needs.
+1. **Configure Your API Call:*** Change the `provider` to "pool".
+   * Use the desired pool name in the `model` field.
+2. **Access the Model List:*** Use the models route with filter `subtype=pool` to retrieve available pools and their details.
+3. **Test and Validate Results:*** Continually monitor outcomes to ensure the pooling mechanism meets your application’s needs.
 
 ## Tips & Tricks
 
@@ -90,23 +140,12 @@ To effectively integrate Pools into your AI workflows, follow these steps:
 
 ## FAQs
 
-1. **How does Model Pooling enhance reliability?**
-   - By rerouting failed requests across multiple similar models on failure, ensuring a consistent response.
-
-2. **Are there any additional costs associated with Pooling?**
-   - No, there is no additional cost. Various providers may charge different rates for the same model, but there are no hidden additional fees beyond standard usage rates.
-
-3. **Can I use Model Pooling with any AI application?**
-   - While most applications can benefit, it is especially useful where reliability and data security are priorities.
-
-4. **Is there any impact on response time when using Pools?**
-   - Failover responses are swift, typically with negligible impact on perceived user latency.
-
-5. **How to verify available Pools?**
-   - Utilize the models API endpoint with relevant filters to view current pools.
-  
-6. **Do pools support streaming?**
-   - Yes, all pools support streaming. Note that some Bedrock models may aggregate before streaming. Use the ChatX pools for guaranteed full streaming and memory support.
+1. **How does Model Pooling enhance reliability?*** By rerouting failed requests across multiple similar models on failure, ensuring a consistent response.
+2. **Are there any additional costs associated with Pooling?*** No, there is no additional cost. Various providers may charge different rates for the same model, but there are no hidden additional fees beyond standard usage rates.
+3. **Can I use Model Pooling with any AI application?*** While most applications can benefit, it is especially useful where reliability and data security are priorities.
+4. **Is there any impact on response time when using Pools?*** Failover responses are swift, typically with negligible impact on perceived user latency.
+5. **How to verify available Pools?*** Utilize the models API endpoint with relevant filters to view current pools.
+6. **Do pools support streaming?*** Yes, all pools support streaming. Note that some Bedrock models may aggregate before streaming. Use the ChatX pools for guaranteed full streaming and memory support.
 
 ## Links
 

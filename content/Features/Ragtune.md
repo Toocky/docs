@@ -1,14 +1,70 @@
 ---
 title: RAG Tuning Guide
 sidebar_label: RAG Tuning
-tags: [AI RAG, AI Tuning, AI Embeddings]
-keywords: [ RAG Tuning, AI Business Solutions, Vector Search, OpenAI Integration, AI Query Augmentation,  Retrieval Augmented Generation, RAG Tuning API, AI Response Optimization, Custom Data AI, AI Model Optimization, API RAG Tuning, AI Prompt Augmentation, RAG Tuning Documentation, RAG Tuning Guide, API RAG Tuning Features, Cost-effective AI Tuning, AI Response Accuracy, AI Context-aware Responses, RAG Tuning Setup, API RAG Integration, AI Knowledge Base Integration, RAG Tuning Benefits, AI Data Augmentation, RAG Tuning Steps, API RAG Tuning Documentation, AI Query Enhancement, RAG Tuning for Businesses, AI Data Integration, API RAG Tuning Guide, AI Document Upload API, RAG Tuning Parameters, AI Document Collection API, API RAG Management, RAG Tuning Cost Management, AI Data-Driven Responses, RAG Tuning Features, RAG Tuning Use Cases, AI Model Customization, RAG Tuning Best Practices, API RAG Tuning Setup, AI Response Customization, RAG Tuning and Optimization, API RAG Tuning Benefits, AI Data Augmentation API, RAG Tuning Advantages, AI Tuning without Fine-Tuning, API RAG Tuning Features, RAG Tuning Solutions, AI Tuning with Custom Data, RAG Tuning Efficiency, API RAG Tuning Use Cases, AI Tuning Documentation, RAG Tuning Implementation ]
+tags:
+  - AI RAG
+  - AI Tuning
+  - AI Embeddings
+keywords:
+  - RAG Tuning
+  - AI Business Solutions
+  - Vector Search
+  - OpenAI Integration
+  - AI Query Augmentation
+  - Retrieval Augmented Generation
+  - RAG Tuning API
+  - AI Response Optimization
+  - Custom Data AI
+  - AI Model Optimization
+  - API RAG Tuning
+  - AI Prompt Augmentation
+  - RAG Tuning Documentation
+  - RAG Tuning Guide
+  - API RAG Tuning Features
+  - Cost-effective AI Tuning
+  - AI Response Accuracy
+  - AI Context-aware Responses
+  - RAG Tuning Setup
+  - API RAG Integration
+  - AI Knowledge Base Integration
+  - RAG Tuning Benefits
+  - AI Data Augmentation
+  - RAG Tuning Steps
+  - API RAG Tuning Documentation
+  - AI Query Enhancement
+  - RAG Tuning for Businesses
+  - AI Data Integration
+  - API RAG Tuning Guide
+  - AI Document Upload API
+  - RAG Tuning Parameters
+  - AI Document Collection API
+  - API RAG Management
+  - RAG Tuning Cost Management
+  - AI Data-Driven Responses
+  - RAG Tuning Features
+  - RAG Tuning Use Cases
+  - AI Model Customization
+  - RAG Tuning Best Practices
+  - API RAG Tuning Setup
+  - AI Response Customization
+  - RAG Tuning and Optimization
+  - API RAG Tuning Benefits
+  - AI Data Augmentation API
+  - RAG Tuning Advantages
+  - AI Tuning without Fine-Tuning
+  - API RAG Tuning Features
+  - RAG Tuning Solutions
+  - AI Tuning with Custom Data
+  - RAG Tuning Efficiency
+  - API RAG Tuning Use Cases
+  - AI Tuning Documentation
+  - RAG Tuning Implementation
 sidebar_position: 25
 ---
 
-<div align="center">
-    <img src="/docs/img/Features/ragtune-banner.png" alt="RAG Tuning Feature Banner" width="100%" />
-</div>
+::div{align="center"}
+![RAG Tuning Feature Banner](/docs/img/Features/ragtune-banner.png){width="100%"}
+::
 
 Unlock the full potential of AI with **RAG Tuning**—a revolutionary feature designed to simplify the process of tuning and optimizing AI responses using your custom data. By augmenting model queries with your own data, RAG Tuning ensures more accurate and context-aware responses, providing a cost-effective alternative to traditional training or fine-tuning.
 
@@ -113,6 +169,7 @@ In this example, the `rag_tune` parameter ensures that the query pulls relevant 
 ## RAG Tuning Fees
 
 Keep in mind that RAG Tuning incurs the following costs:
+
 - **Document Upload**: Each document uploaded to a RAG collection is charged.
 - **Querying Documents**: Additional fees apply when fetching relevant data from the uploaded documents.
 - **Storage**: Daily fees apply for storing documents and maintaining collections.
@@ -125,29 +182,17 @@ Keep in mind that RAG Tuning incurs the following costs:
 
 ## FAQs
 
-1. **How do I create an index for RAG Tuning?**
-   - You don’t need to manually create an index or namespace. When you upload a document and assign it to a `collectionName`, it automatically handles both the index and namespace for you.
-
-2. **Can I use RAG Tuning with any AI model?**
-   - Yes, RAG Tuning works with any AI model we support, allowing you to augment your queries with your own data regardless of the model used.
-
-3. **Is there a limit to the number of documents I can upload to a collection?**
-   - There is no hard limit, but additional charges apply based on the number of documents uploaded and stored. Monitor your usage to manage costs effectively.
-
-4. **How does RAG Tuning affect the model’s response time?**
-   - RAG Tuning may increase response times slightly as the system fetches relevant data from your documents to augment the model’s answer. However, this trade-off usually results in more accurate and context-aware responses.
-
-5. **What happens to my data after I delete a collection?**
-   - Once a collection is deleted, all associated documents and embeddings are permanently removed from the system, ensuring your data remains secure and private.
-
+1. **How do I create an index for RAG Tuning?*** You don’t need to manually create an index or namespace. When you upload a document and assign it to a `collectionName`, it automatically handles both the index and namespace for you.
+2. **Can I use RAG Tuning with any AI model?*** Yes, RAG Tuning works with any AI model we support, allowing you to augment your queries with your own data regardless of the model used.
+3. **Is there a limit to the number of documents I can upload to a collection?*** There is no hard limit, but additional charges apply based on the number of documents uploaded and stored. Monitor your usage to manage costs effectively.
+4. **How does RAG Tuning affect the model’s response time?*** RAG Tuning may increase response times slightly as the system fetches relevant data from your documents to augment the model’s answer. However, this trade-off usually results in more accurate and context-aware responses.
+5. **What happens to my data after I delete a collection?*** Once a collection is deleted, all associated documents and embeddings are permanently removed from the system, ensuring your data remains secure and private.
 
 ## Links
 
 - [RAG Tuning API Documentation](https://apipie.ai/docs/api/ragtune)
 - [Chat Completions API](https://apipie.ai/docs/api/chatcompletions)
 
-
 ## Conclusion
 
 RAG Tuning empowers businesses to enhance their AI models without the cost and complexity of retraining. By augmenting model queries with your own data, RAG Tuning enables any model to provide more accurate and contextually relevant answers. Explore the power of RAG Tuning today and make your AI integrations smarter, faster, and more reliable.
-

@@ -2,10 +2,18 @@
 title: Privacy Policy
 sidebar_label: Privacy Policy
 sidebar_position: 1
-keywords: [APIpie, APIpie Integration, ChatGPT, ChatGPT Alternative, Chatbot, AI, LLM, LLM API]
+keywords:
+  - APIpie
+  - APIpie Integration
+  - ChatGPT
+  - ChatGPT Alternative
+  - Chatbot
+  - AI
+  - LLM
+  - LLM API
 ---
 
-*Effective on April 1, 2023, Updated on April 4, 2023*
+_Effective on April 1, 2023, Updated on April 4, 2023_
 
 This privacy policy ("Policy") describes how Neuronic AI Inc ("Neuronic AI", "we", "us" or "our") collects, protects, and uses the personally identifiable information ("Personal Information") you ("User", "you" or "your") may provide on the APIpie.ai website and any of its products or services (collectively, "Website" or "Services"). It also describes the choices available to you regarding our use of your Personal Information and how you can access and update this information. This Policy does not apply to the practices of companies that we do not own or control, or to individuals that we do not employ or manage.
 
@@ -80,6 +88,3 @@ You acknowledge that you have read this Policy and agree to all its terms and co
 ### Contacting us
 
 If you have any questions about this Policy, please contact us.
-
-
-
