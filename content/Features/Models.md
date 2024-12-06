@@ -65,13 +65,13 @@ GET https://apipie.ai/v1/models
 
 Here are the parameters you can use to filter the model results:
 
-- **type** (string): Filter by the type of model (e.g., `llm`, `vision`, `embedding`, `image`, `voice`, `moderation`, `coding`, `free`).:brExample: `llm`
-- **subtype** (string): Filter by the subtype of the model (e.g., `chat`, `fill-mask`, `question-answering`, `tts`, `stt`, `multimodal`).:brExample: `chat`
-- **provider** (string): Filter by the provider of the model (e.g., `openrouter`).:brExample: `openrouter`
-- **combination** (string): Combine filters for provider and subtype.:brExample: `provider=openrouter&subtype=chat`
-- **enabled** (integer): Filter only enabled models (`1` for enabled, `0` for disabled).:brExample: `enabled=1&subtype=chat`
-- **voices**: Retrieve a list of available voices for TTS models.:brExample: `voices`
-- **restrictions**: Retrieve a list of country restrictions for models.:brExample: `restrictions`
+- **type** (string): Filter by the type of model (e.g., `llm`, `vision`, `embedding`, `image`, `voice`, `moderation`, `coding`, `free`).\:brExample: `llm`
+- **subtype** (string): Filter by the subtype of the model (e.g., `chat`, `fill-mask`, `question-answering`, `tts`, `stt`, `multimodal`).\:brExample: `chat`
+- **provider** (string): Filter by the provider of the model (e.g., `openrouter`).\:brExample: `openrouter`
+- **combination** (string): Combine filters for provider and subtype.\:brExample: `provider=openrouter&subtype=chat`
+- **enabled** (integer): Filter only enabled models (`1` for enabled, `0` for disabled).\:brExample: `enabled=1&subtype=chat`
+- **voices**: Retrieve a list of available voices for TTS models.\:brExample: `voices`
+- **restrictions**: Retrieve a list of country restrictions for models.\:brExample: `restrictions`
 
 ### Example API Requests
 
@@ -184,11 +184,11 @@ Here’s a summary of the fields in each model record, if available:
 
 ## FAQs
 
-1. **What is the primary use of the Models Route feature?*** The Models Route feature allows users to retrieve and filter available AI models based on type, subtype, provider, and more for targeted AI model integration.
-2. **Can I filter models by both type and provider?*** Yes, you can combine filters such as `type=llm` and `provider=openai` to get a more refined list of models matching both criteria.
-3. **What does the** **subtype=chatx** **filter do?*** The `chatx` subtype lists models that support streaming and memory services, providing a better experience for real-time chat applications.
-4. **How can I retrieve available voices for TTS models?*** You can use the `voices` query parameter to fetch all available TTS voices. This will list models that support text-to-speech functionalities.
-5. **Is the response time affected by the filters used?*** Response times are primarily affected by the specific model's latency and availability, rather than the filters applied. However, models with advanced features like memory or high token limits may introduce slightly longer response times.
+1. **What is the primary use of the Models Route feature?**\* The Models Route feature allows users to retrieve and filter available AI models based on type, subtype, provider, and more for targeted AI model integration.
+2. **Can I filter models by both type and provider?**\* Yes, you can combine filters such as `type=llm` and `provider=openai` to get a more refined list of models matching both criteria.
+3. **What does the** **subtype=chatx** &#x2A;*filter do?**\* The `chatx` subtype lists models that support streaming and memory services, providing a better experience for real-time chat applications.
+4. **How can I retrieve available voices for TTS models?**\* You can use the `voices` query parameter to fetch all available TTS voices. This will list models that support text-to-speech functionalities.
+5. **Is the response time affected by the filters used?**\* Response times are primarily affected by the specific model's latency and availability, rather than the filters applied. However, models with advanced features like memory or high token limits may introduce slightly longer response times.
 
 ## Links
 

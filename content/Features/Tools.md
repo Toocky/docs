@@ -208,10 +208,10 @@ The Tools Support feature provides unmatched flexibility and accuracy for handli
 
 To effectively use Tools Support in your AI workflows, follow these steps:
 
-1. **Choose Your Tools Model:*** Set the `tools_model` parameter to any supported OpenAI or Anthropic model based on your needs.
-   * Use the default `gpt-4o-mini` for cost-effective and reliable responses.
-2. **Configure Tool Query Settings:*** Ensure your API request includes the appropriate tool-related parameters and functions.
-3. **Monitor and Optimize:*** Track the performance of tool queries to assess their impact on response times and costs.
+1. **Choose Your Tools Model:**\* Set the `tools_model` parameter to any supported OpenAI or Anthropic model based on your needs.
+   - Use the default `gpt-4o-mini` for cost-effective and reliable responses.
+2. **Configure Tool Query Settings:**\* Ensure your API request includes the appropriate tool-related parameters and functions.
+3. **Monitor and Optimize:**\* Track the performance of tool queries to assess their impact on response times and costs.
 
 ## Tips & Tricks
 
@@ -221,10 +221,10 @@ To effectively use Tools Support in your AI workflows, follow these steps:
 
 ## FAQs
 
-1. **What is the default tools model?*** The default tools model is `gpt-4o-mini`, which balances accuracy and cost-effectiveness.
-2. **Can I use Anthropic models for tools queries?*** Yes, both OpenAI and Anthropic models are supported for tool queries.
-3. **What happens if the tools model doesn't return a tool response?*** The query is sent to your primary model for standard processing, incurring an additional charge.
-4. **Is there any delay when using tools?*** There may be a slight delay when streaming tool responses due to the additional data processing.
+1. **What is the default tools model?**\* The default tools model is `gpt-4o-mini`, which balances accuracy and cost-effectiveness.
+2. **Can I use Anthropic models for tools queries?**\* Yes, both OpenAI and Anthropic models are supported for tool queries.
+3. **What happens if the tools model doesn't return a tool response?**\* The query is sent to your primary model for standard processing, incurring an additional charge.
+4. **Is there any delay when using tools?**\* There may be a slight delay when streaming tool responses due to the additional data processing.
 
 ## Links
 

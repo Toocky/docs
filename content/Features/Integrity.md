@@ -91,10 +91,10 @@ By mitigating potential hallucinations, the Integrity feature ensures that AI in
 
 To effectively use Integrity in your AI workflows, follow these steps:
 
-1. **Configure Your API Call:*** Set the `integrity` parameter to 12 or 13 depending on your accuracy needs.
-   * Select the `integrity_model` only if deviating from the default `gpt-4o`.
-2. **Understand the Cost and Time Implications:*** Ensure your application is suited to handle slight delays in response time due to the voting process.
-3. **Test and Validate Results:*** Continuously monitor results to optimize the use of Integrity for your specific requirements.
+1. **Configure Your API Call:**\* Set the `integrity` parameter to 12 or 13 depending on your accuracy needs.
+   - Select the `integrity_model` only if deviating from the default `gpt-4o`.
+2. **Understand the Cost and Time Implications:**\* Ensure your application is suited to handle slight delays in response time due to the voting process.
+3. **Test and Validate Results:**\* Continuously monitor results to optimize the use of Integrity for your specific requirements.
 
 ## Tips & Tricks
 
@@ -104,11 +104,11 @@ To effectively use Integrity in your AI workflows, follow these steps:
 
 ## FAQs
 
-1. **What is the main purpose of the Integrity feature?*** To reduce hallucinations in AI responses, providing more reliable outputs.
-2. **Why does Integrity cost more?*** The additional accuracy processes (i.e., multiple queries and voting) incur extra usage costs.
-3. **Is Integrity suitable for all AI applications?*** It's best used for non-real-time applications where accuracy is prioritized over response speed.
-4. **Can other AI models besides OpenAI be used for integrity checks?*** Currently, Integrity primarily supports OpenAI models due to specific feature support.
-5. **How does Integrity affect response time?*** The response time is slightly longer due to added processing, so it is recommended for applications where this delay is acceptable.
+1. **What is the main purpose of the Integrity feature?**\* To reduce hallucinations in AI responses, providing more reliable outputs.
+2. **Why does Integrity cost more?**\* The additional accuracy processes (i.e., multiple queries and voting) incur extra usage costs.
+3. **Is Integrity suitable for all AI applications?**\* It's best used for non-real-time applications where accuracy is prioritized over response speed.
+4. **Can other AI models besides OpenAI be used for integrity checks?**\* Currently, Integrity primarily supports OpenAI models due to specific feature support.
+5. **How does Integrity affect response time?**\* The response time is slightly longer due to added processing, so it is recommended for applications where this delay is acceptable.
 
 ## Links
 

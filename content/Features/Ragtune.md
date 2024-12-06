@@ -182,11 +182,11 @@ Keep in mind that RAG Tuning incurs the following costs:
 
 ## FAQs
 
-1. **How do I create an index for RAG Tuning?*** You don’t need to manually create an index or namespace. When you upload a document and assign it to a `collectionName`, it automatically handles both the index and namespace for you.
-2. **Can I use RAG Tuning with any AI model?*** Yes, RAG Tuning works with any AI model we support, allowing you to augment your queries with your own data regardless of the model used.
-3. **Is there a limit to the number of documents I can upload to a collection?*** There is no hard limit, but additional charges apply based on the number of documents uploaded and stored. Monitor your usage to manage costs effectively.
-4. **How does RAG Tuning affect the model’s response time?*** RAG Tuning may increase response times slightly as the system fetches relevant data from your documents to augment the model’s answer. However, this trade-off usually results in more accurate and context-aware responses.
-5. **What happens to my data after I delete a collection?*** Once a collection is deleted, all associated documents and embeddings are permanently removed from the system, ensuring your data remains secure and private.
+1. **How do I create an index for RAG Tuning?**\* You don’t need to manually create an index or namespace. When you upload a document and assign it to a `collectionName`, it automatically handles both the index and namespace for you.
+2. **Can I use RAG Tuning with any AI model?**\* Yes, RAG Tuning works with any AI model we support, allowing you to augment your queries with your own data regardless of the model used.
+3. **Is there a limit to the number of documents I can upload to a collection?**\* There is no hard limit, but additional charges apply based on the number of documents uploaded and stored. Monitor your usage to manage costs effectively.
+4. **How does RAG Tuning affect the model’s response time?**\* RAG Tuning may increase response times slightly as the system fetches relevant data from your documents to augment the model’s answer. However, this trade-off usually results in more accurate and context-aware responses.
+5. **What happens to my data after I delete a collection?**\* Once a collection is deleted, all associated documents and embeddings are permanently removed from the system, ensuring your data remains secure and private.
 
 ## Links
 

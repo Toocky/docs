@@ -253,11 +253,11 @@ Keep in mind that Pinecone Integration incurs the following costs:
 
 ## FAQs
 
-1. **How do I create an index in Pinecone Integration?*** You don't need to create an index separately. Our system handles this by combining the concepts of **index** and **namespace** into what we call a "collection." When you create a collection using the `collectionName` and `dimension` parameters, you effectively create both the index and namespace in one step.
-2. **Can I specify different dimensions for each collection?*** Yes, when creating a collection, you can specify the vector dimension that suits your needs. This allows for flexibility based on the data you're working with.
-3. **What happens if I delete a vector collection?*** Deleting a vector collection removes all the vectors and data associated with it. If you need more control, you can choose to delete specific vectors within a collection instead of the entire collection.
-4. **Is there a limit on the number of vectors I can store in a collection?*** There is no hard limit on the number of vectors you can store, but keep in mind that storage costs accumulate daily based on the size of the data. The system is designed to scale with your needs.
-5. **Can I use my vector collection with any model?*** Yes, once you've created and populated a vector collection, you can use the `rag_tune` parameter to augment any model we support, providing more contextually accurate responses based on your custom data.
+1. **How do I create an index in Pinecone Integration?**\* You don't need to create an index separately. Our system handles this by combining the concepts of **index** and **namespace** into what we call a "collection." When you create a collection using the `collectionName` and `dimension` parameters, you effectively create both the index and namespace in one step.
+2. **Can I specify different dimensions for each collection?**\* Yes, when creating a collection, you can specify the vector dimension that suits your needs. This allows for flexibility based on the data you're working with.
+3. **What happens if I delete a vector collection?**\* Deleting a vector collection removes all the vectors and data associated with it. If you need more control, you can choose to delete specific vectors within a collection instead of the entire collection.
+4. **Is there a limit on the number of vectors I can store in a collection?**\* There is no hard limit on the number of vectors you can store, but keep in mind that storage costs accumulate daily based on the size of the data. The system is designed to scale with your needs.
+5. **Can I use my vector collection with any model?**\* Yes, once you've created and populated a vector collection, you can use the `rag_tune` parameter to augment any model we support, providing more contextually accurate responses based on your custom data.
 
 ## Conclusion
 

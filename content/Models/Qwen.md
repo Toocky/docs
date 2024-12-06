@@ -77,8 +77,9 @@ The Qwen Series represents a comprehensive family of transformer-based models op
 
 #### \*\* Model List updates dynamically please see API Route for current list\*\*
 
-| **Model Name**         | **Max Tokens** | **Response Tokens** | **Providers**                         | **Subtype**     |
+|                        |                |                     |                                       |                 |
 | ---------------------- | -------------- | ------------------- | ------------------------------------- | --------------- |
+| **Model Name**         | **Max Tokens** | **Response Tokens** | **Providers**                         | **Subtype**     |
 | qwen-2-72b-instruct    | 32,768         | 32,768              | OpenRouter, EdenAI, Together, Bedrock | Instruction     |
 | qwen-2-7b-instruct     | 32,768         | 32,768              | OpenRouter, EdenAI, Together, Bedrock | Instruction     |
 | Qwen2-1.5B-Instruct    | 32,768         | 32,768              | OpenRouter, EdenAI, Together, Bedrock | Instruction     |

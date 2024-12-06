@@ -144,28 +144,19 @@ This structure provides the generated message, completion details, and detailed 
 
 ### Required Parameters
 
-- **messages** (array): A sequence of message objects in the conversation. Each message has:* **role** (string): The role of the message in the conversation. Possible values: `system`, `user`, `assistant`.
-  * **content** (string): The content of the message.
+- **messages** (array): A sequence of message objects in the conversation. Each message has:\* **role** (string): The role of the message in the conversation. Possible values: `system`, `user`, `assistant`.
+  - **content** (string): The content of the message.
 
 ### Message Roles
 
-- **system**: This message type is used to guide the AI's behavior throughout the conversation. It sets the rules or parameters for how the AI should respond. For example, the system message might instruct the AI to speak in a specific language, adopt a particular tone, or adhere to certain boundaries in its replies. It's useful for defining the scope and role of the assistant, ensuring it stays within the desired context.:br**Example use case**: Defining the AI's behavior.```json
-  {
-    "role": "system",
-    "content": "You are a helpful assistant that speaks only in Swedish."
-  }
+- **system**: This message type is used to guide the AI's behavior throughout the conversation. It sets the rules or parameters for how the AI should respond. For example, the system message might instruct the AI to speak in a specific language, adopt a particular tone, or adhere to certain boundaries in its replies. It's useful for defining the scope and role of the assistant, ensuring it stays within the desired context.\:br**Example use case**: Defining the AI's behavior.\`\`\`json { "role": "system", "content": "You are a helpful assistant that speaks only in Swedish." }
+  ```text
   ```
-- **user**: The user message represents the actual input or query from the person interacting with the AI. It's the prompt or question the user is submitting to the AI, and this message is crucial as it dictates what the AI will respond to. The content here is typically dynamic based on what the user is asking or requesting at any given moment.:br**Example use case**: The user's request to the AI.```json
-  {
-    "role": "user",
-    "content": "Why is the sky blue?"
-  }
+- **user**: The user message represents the actual input or query from the person interacting with the AI. It's the prompt or question the user is submitting to the AI, and this message is crucial as it dictates what the AI will respond to. The content here is typically dynamic based on what the user is asking or requesting at any given moment.\:br**Example use case**: The user's request to the AI.\`\`\`json { "role": "user", "content": "Why is the sky blue?" }
+  ```text
   ```
-- **assistant**: This message type is the AI's response or any generated information that contributes to the conversation. It can be used for knowledge retrieval (such as in Retrieval-Augmented Generation, RAG) or historical memory when responding to ongoing conversations. The assistant message can be stored and used in context to improve the model’s ability to respond appropriately over a series of interactions.:br**Example use case**: AI's response or retrieved information.```json
-  {
-    "role": "assistant",
-    "content": "The sky is blue because of a phenomenon called Rayleigh scattering..."
-  }
+- **assistant**: This message type is the AI's response or any generated information that contributes to the conversation. It can be used for knowledge retrieval (such as in Retrieval-Augmented Generation, RAG) or historical memory when responding to ongoing conversations. The assistant message can be stored and used in context to improve the model’s ability to respond appropriately over a series of interactions.\:br**Example use case**: AI's response or retrieved information.\`\`\`json { "role": "assistant", "content": "The sky is blue because of a phenomenon called Rayleigh scattering..." }
+  ```text
   ```
 - **model** (string): Specifies the AI model to use. Normally a single base model name, you can provide up to 5 comma-separated models for multi-model queries which leverages our super query capabilities (Note: Some other features may not work with Super Query, such as pools for example)
 
@@ -173,9 +164,9 @@ This structure provides the generated message, completion details, and detailed 
 
 - **provider** (string): Optionally, specify the AI provider, or omit this field to let the system choose the best-performing one.
 - **rag\_tune** (string): Use this to specify a RAG tune or vector collection for augmenting language model queries with data from a specified vector database.
-- **routing** (string): Defines how the call should be routed when multiple providers exist for a model. Options are:* `price`: Chooses the cheapest provider.
-  * `perf`: Selects based on lowest latency for prompt size.
-  * `perf_avg`: Chooses based on average latency.
+- **routing** (string): Defines how the call should be routed when multiple providers exist for a model. Options are:\* `price`: Chooses the cheapest provider.
+  - `perf`: Selects based on lowest latency for prompt size.
+  - `perf_avg`: Chooses based on average latency.
 
 ### Generation Control Parameters (Grouped)
 

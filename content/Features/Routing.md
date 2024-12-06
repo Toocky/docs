@@ -121,16 +121,16 @@ By offering both price-based and performance-based routing, Preferred Routing al
 
 To start using Preferred Routing effectively, follow these steps:
 
-1. **Configure Your API Call:*** Add the `routing` parameter and set it to either `price`, `perf`, or `perf-avg` depending on your needs.
-2. **Monitor Costs and Latency:*** Track your usage and adjust routing settings to balance cost savings and performance as needed.
+1. **Configure Your API Call:**\* Add the `routing` parameter and set it to either `price`, `perf`, or `perf-avg` depending on your needs.
+2. **Monitor Costs and Latency:**\* Track your usage and adjust routing settings to balance cost savings and performance as needed.
 
 ## FAQs
 
-1. **What is the default routing option?*** The default routing option is `perf`, which selects the most responsive provider based on your prompt size.
-2. **How does price routing work?*** Price routing selects the cheapest provider for your request, based on real-time pricing for the model.
-3. **Can routing impact response time?*** Yes, selecting price routing may result in slower response times, while performance routing will optimize for speed.
-4. **Can I change the routing option after sending a request?*** No, the routing option must be set when making the API call.
-5. **Is Preferred Routing available for all models?*** Preferred Routing is supported for models with multiple providers. If only one provider is available, routing options are not applicable.
+1. **What is the default routing option?**\* The default routing option is `perf`, which selects the most responsive provider based on your prompt size.
+2. **How does price routing work?**\* Price routing selects the cheapest provider for your request, based on real-time pricing for the model.
+3. **Can routing impact response time?**\* Yes, selecting price routing may result in slower response times, while performance routing will optimize for speed.
+4. **Can I change the routing option after sending a request?**\* No, the routing option must be set when making the API call.
+5. **Is Preferred Routing available for all models?**\* Preferred Routing is supported for models with multiple providers. If only one provider is available, routing options are not applicable.
 
 ## Links
 

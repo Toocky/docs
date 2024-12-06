@@ -64,8 +64,8 @@ GET https://apipie.ai/v1/queries/
 
 ### Query Parameters
 
-- **limit** (optional): Limits the number of returned queries per page.:brExample: `limit=100`
-- **offset** (optional): Offset used for pagination.:brExample: `offset=0`
+- **limit** (optional): Limits the number of returned queries per page.\:brExample: `limit=100`
+- **offset** (optional): Offset used for pagination.\:brExample: `offset=0`
 
 ### Example API Call
 

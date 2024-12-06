@@ -127,10 +127,10 @@ Leverage AI Model Pooling for enhanced reliability and data privacy across AI ap
 
 To effectively integrate Pools into your AI workflows, follow these steps:
 
-1. **Configure Your API Call:*** Change the `provider` to "pool".
-   * Use the desired pool name in the `model` field.
-2. **Access the Model List:*** Use the models route with filter `subtype=pool` to retrieve available pools and their details.
-3. **Test and Validate Results:*** Continually monitor outcomes to ensure the pooling mechanism meets your application’s needs.
+1. **Configure Your API Call:**\* Change the `provider` to "pool".
+   - Use the desired pool name in the `model` field.
+2. **Access the Model List:**\* Use the models route with filter `subtype=pool` to retrieve available pools and their details.
+3. **Test and Validate Results:**\* Continually monitor outcomes to ensure the pooling mechanism meets your application’s needs.
 
 ## Tips & Tricks
 
@@ -140,12 +140,12 @@ To effectively integrate Pools into your AI workflows, follow these steps:
 
 ## FAQs
 
-1. **How does Model Pooling enhance reliability?*** By rerouting failed requests across multiple similar models on failure, ensuring a consistent response.
-2. **Are there any additional costs associated with Pooling?*** No, there is no additional cost. Various providers may charge different rates for the same model, but there are no hidden additional fees beyond standard usage rates.
-3. **Can I use Model Pooling with any AI application?*** While most applications can benefit, it is especially useful where reliability and data security are priorities.
-4. **Is there any impact on response time when using Pools?*** Failover responses are swift, typically with negligible impact on perceived user latency.
-5. **How to verify available Pools?*** Utilize the models API endpoint with relevant filters to view current pools.
-6. **Do pools support streaming?*** Yes, all pools support streaming. Note that some Bedrock models may aggregate before streaming. Use the ChatX pools for guaranteed full streaming and memory support.
+1. **How does Model Pooling enhance reliability?**\* By rerouting failed requests across multiple similar models on failure, ensuring a consistent response.
+2. **Are there any additional costs associated with Pooling?**\* No, there is no additional cost. Various providers may charge different rates for the same model, but there are no hidden additional fees beyond standard usage rates.
+3. **Can I use Model Pooling with any AI application?**\* While most applications can benefit, it is especially useful where reliability and data security are priorities.
+4. **Is there any impact on response time when using Pools?**\* Failover responses are swift, typically with negligible impact on perceived user latency.
+5. **How to verify available Pools?**\* Utilize the models API endpoint with relevant filters to view current pools.
+6. **Do pools support streaming?**\* Yes, all pools support streaming. Note that some Bedrock models may aggregate before streaming. Use the ChatX pools for guaranteed full streaming and memory support.
 
 ## Links
 
